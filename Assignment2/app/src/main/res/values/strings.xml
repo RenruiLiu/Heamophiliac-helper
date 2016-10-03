@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Hemophiliac Helper</string>
+    <string name="add_new_injection_record">Add new injection record</string>
+    <string name="recommended_date_for_next_injection_is">Recommended date for next injection is </string>
+    <string name="last_time_injection_was_on">Last time injection was on </string>
+    <string name="delete_record_by_long_clicking">Delete records by long clicking</string>
+    <string name="delete_record">Do you want to delete this record?</string>
+    <string name="add_record">Add new injection record</string>
+    <string name="date">Date :  </string>
+    <string name="pick_date"> Pick a date </string>
+    <string name="purpose">Purpose : </string>
+    <string name="space">"         "</string>
+    <string name="pls_pick_a_date">Please pick a date</string>
+    <string name="delete">delete</string>
+    <string name="records_selected">" records selected"</string>
+    <string name="add_new_bleeding_record">Add new bleeding record</string>
+    <string name="part">Part : </string>
+    <string name="eg_knee_arm_etc">eg. knee,arm,etc</string>
+    <string name="description">Description : </string>
+    <string name="no_record_injection">There is no records in the Injection DataBase</string>
+    <string name="no_record_bleeding">There is no records in the Bleeding DataBase</string>
+    <string name="liur_deakin_edu_au">liur@deakin.edu.au</string>
+    <string name="email">Email:</string>
+    <string name="id_216166456">ID:216166456</string>
+    <string name="student_of_deakin_university">Student of Deakin University</string>
+    <string name="renrui_liu">Renrui Liu</string>
+    <string name="this_is_an_app_for_sit313_assignment_2">This is an app for SIT313 assignment 2.</string>
+    <string name="for_yiling_yang">For YiLing Yang</string>
+</resources>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+<LinearLayout
+    android:layout_marginTop="20dp"
+    android:layout_marginLeft="20dp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+    <Button
+        android:background="@drawable/ic_add_circle_black_24dp"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:id="@+id/add_bleeding_record"
+        />
+    <TextView
+        android:text="@string/add_new_bleeding_record"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textColor="@color/dark"
+        android:layout_gravity="center_vertical"
+        android:id="@+id/add_bleeding_recordtxt"
+        android:clickable="true"/>
+</LinearLayout>
+
+    <ListView
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@android:id/list" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:text="@string/delete_record_by_long_clicking" />
+    </RelativeLayout>
+
+
+</LinearLayout>
