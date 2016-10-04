@@ -24,6 +24,7 @@ http://stackoverflow.com/questions/9930683/android-notification-at-specific-date
 
 * */
 
+import android.annotation.TargetApi;
 import android.app.AlarmManager;
 import android.app.PendingIntent;
 import android.content.Context;
@@ -31,6 +32,7 @@ import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.IntentFilter;
 import android.database.Cursor;
+import android.os.Build;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v7.app.AlertDialog;
@@ -93,6 +95,7 @@ public class Fragment1 extends android.support.v4.app.ListFragment {
         return v;
     }
 
+    @TargetApi(Build.VERSION_CODES.JELLY_BEAN)
     @Override
     public void onActivityCreated(Bundle savedInstanceState) {
         super.onActivityCreated(savedInstanceState);
@@ -114,6 +117,7 @@ public class Fragment1 extends android.support.v4.app.ListFragment {
             //hide the texts
             txtLas.setText("");
             txtNex.setText("");
+            setAlr.setBackground(null);
         } else {
             for (int i = 0; i < res.getCount() && i < 100; i++) {
                 res.moveToPosition(i);
