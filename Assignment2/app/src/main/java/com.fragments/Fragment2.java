@@ -125,11 +125,12 @@ public class Fragment2 extends Fragment {
                 j = j + 1;
         }
         //and then show lines(add record from array to listView).
+        if (bleedingRecordList.isEmpty()){
         for (int k = 0; k < j; k++) {
             BleedingRecord bleedingRecord = new BleedingRecord(date[k], part[k], description[k]);
             bleedingRecord.setID(ID[k]);
             bleedingRecordList.add(bleedingRecord);
-        }
+        }}
 
         //set arrayAdapter to listView.
         myadapter = new MyBleedingListAdapter(getContext(), R.layout.bleeding_list_row, bleedingRecordList);

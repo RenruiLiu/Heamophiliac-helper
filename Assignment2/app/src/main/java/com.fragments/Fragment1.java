@@ -143,12 +143,13 @@ public class Fragment1 extends android.support.v4.app.ListFragment {
             if (date[i] != null)
                 j = j + 1;
         }
+        if (injectionRecordList.isEmpty()){
         //and then show lines(add record from array to listView).
         for (int k = 0; k < j; k++) {
             InjectionRecord injectionRecord = new InjectionRecord(date[k], purpose[k]);
             injectionRecord.setID(ID[k]);
             injectionRecordList.add(injectionRecord);
-        }
+        }}
 
 
         //set list size
