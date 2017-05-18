@@ -1,2 +1,3 @@
-# Heamophiliac helper
-This is for SIT207 assignment 2.
+# Haemophiliac Helper  
+SIT305 Advanced-Apps-Development Assignment 1  
+by Renrui Liu & Keith G. Chandran
