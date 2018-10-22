@@ -1,4 +1,4 @@
-![logo](https://lh3.googleusercontent.com/0Ys7Clmx945-x0ijQTkdjRJvmaYeUxtr2OOmYoQFvTR9XoPgUxQF27Fya1gTl8IXxQ=w300-rw " ")
+![logo](https://lh3.googleusercontent.com/0Ys7Clmx945-x0ijQTkdjRJvmaYeUxtr2OOmYoQFvTR9XoPgUxQF27Fya1gTl8IXxQ=w300-rw)
 # Haemophiliac Helper  
 
 SIT305 Advanced-Apps-Development Assignment  
