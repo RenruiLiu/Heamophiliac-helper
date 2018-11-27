@@ -15,4 +15,4 @@ They both are caused by one reason (possibly): can't read the file path.
 This often happens on an emulator. But it works fine on my tablet, don't know somehow it can't read other phone's file path. 
 ***
 Download on [Google Play](https://play.google.com/store/apps/details?id=com.ryankeith.haemophiliac_helper&hl=en "Haemophiliac-Helper")  
-Welcome any feedbacks to liur@deakin.edu.au  
+Welcome any feedbacks to liurenrui016@qq.com  
